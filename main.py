@@ -28,11 +28,12 @@ def main():
             value3 = float(input("Enter third number: "))
             print("Largest Product:", my_functions.largest_product(value1, value2, value3))
         elif option == 4: 
-            #colour_mixer()
-            print("Added option 4")
+            color1 = input("Enter first RGB color (red, green, blue): ")
+            color2 = input("Enter second RGB color (red, green, blue): ")
+            print("Mixed Color:", my_functions.colour_mixer(color1, color2))
         elif option == 5: 
-            #yee_ha()
-            print("Added option 5")
+            number = int(input("Enter a number: "))
+            print("Result:", my_functions.yee_ha(number))
         elif option == 6: 
             print("Exiting the program!")
             break  # Properly exit the loop
