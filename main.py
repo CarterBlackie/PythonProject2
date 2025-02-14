@@ -23,8 +23,10 @@ def main():
             aqi = int(input("Enter Air Quality Index (AQI): "))
             print("Pollution Level:", my_functions.air_quality(aqi))
         elif option == 3: 
-            #largest_product()
-            print("Added option 3")
+            value1 = float(input("Enter first number: "))
+            value2 = float(input("Enter second number: "))
+            value3 = float(input("Enter third number: "))
+            print("Largest Product:", my_functions.largest_product(value1, value2, value3))
         elif option == 4: 
             #colour_mixer()
             print("Added option 4")

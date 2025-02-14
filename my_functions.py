@@ -31,3 +31,11 @@ def air_quality(air_quality_index):
         return 'Very Unhealthy'
     else: 
         return 'Hazardous'
+
+def largest_product(value1, value2, value3):
+    if value1 < value2 and value1 < value3:
+        return value2 * value3
+    elif value2 < value3:
+        return value1 * value3
+    else:
+        return value1 * value2
