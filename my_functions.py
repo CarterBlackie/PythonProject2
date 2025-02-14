@@ -16,4 +16,18 @@ def day_of_week(day_number):
     else:
         return 'Error'
 
-
+def air_quality(air_quality_index):
+    if air_quality_index < 0: 
+        return 'Error'
+    elif air_quality_index <= 50:
+        return 'Good'
+    elif air_quality_index <= 100:
+        return 'Moderate'
+    elif air_quality_index <= 150:
+        return 'Unhealthy for Sensitive Groups'
+    elif air_quality_index <= 200:
+        return 'Unhealthy'
+    elif air_quality_index <= 300:
+        return 'Very Unhealthy'
+    else: 
+        return 'Hazardous'

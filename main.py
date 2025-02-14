@@ -20,8 +20,8 @@ def main():
             number = int(input("Enter a number (1-7): "))
             print("Day: ", my_functions.day_of_week(number))
         elif option == 2: 
-            #air_quality()
-            print("Added option 2")
+            aqi = int(input("Enter Air Quality Index (AQI): "))
+            print("Pollution Level:", my_functions.air_quality(aqi))
         elif option == 3: 
             #largest_product()
             print("Added option 3")
