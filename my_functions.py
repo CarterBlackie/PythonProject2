@@ -65,3 +65,12 @@ def yee_ha(number):
         return 'Yee'
     else: 
         return 'Nada'
+    
+def display_menu():
+    print("\nMenu:")
+    print("1 - Day of the Week")
+    print("2 - Air Quality Index")
+    print("3 - Largest Product")
+    print("4 - Colour Mixer")
+    print("5 - Yee Ha")
+    print("6 - Exit Program")
